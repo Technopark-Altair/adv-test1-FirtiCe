@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor='let car of cars'>
+    <a routerLink='/car/{{car.carID}}'>{{car.carBrand}} - {{car.carModel}}</a>
+  </li>
+</ul>
